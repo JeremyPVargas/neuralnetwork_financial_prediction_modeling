@@ -91,16 +91,16 @@ Second attempt to evaluate the model using test data to determine the model's lo
 [sklearn](https://scikit-learn.org/stable/)
 
 ### Standard Scaler
-[standardscaler](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html)
+[standardscaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
 
 ### Binary Crossentropy
-[binary-crosscentropy](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) 
+[binary-crosscentropy](https://pythonguides.com/binary-cross-entropy-tensorflow/) 
 
 ### Adam optimizer
-[adam-optimizer](https://datascience.stackexchange.com/questions/64441/how-to-interpret-classification-report-of-scikit-learn)
+[adam-optimizer](https://pythonguides.com/adam-optimizer-pytorch/)
 
 ### Accuracy Evaluation Metric
-[accuracy-evaluation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+[accuracy-evaluation](https://pythonguides.com/adam-optimizer-pytorch/)
 
 
 ---
@@ -117,17 +117,14 @@ ANACONDA - Navigator
 
         Install the required Supervised Learning libraries
             conda activate dev
-            conda install -c conda-forge imbalanced-learn
+            from pathlib import Path
 
         Import the required libraries and dependencies
-            import numpy as np
-            import pandas as pd
-            from pathlib import Path
-            from sklearn.metrics import balanced_accuracy_score
-            from sklearn.metrics import confusion_matrix
-            from imblearn.metrics import classification_report_imbalanced
+            import tensorflow as tf
+            from tensorflow.keras.layers import Dense
+            from tensorflow.keras.models import Sequential
             from sklearn.model_selection import train_test_split
-            from sklearn.linear_model import LogisticRegression
+            from sklearn.preprocessing import StandardScaler,OneHotEncoder
 
 ---
 <!--Version Release -->
@@ -144,16 +141,18 @@ ANACONDA - Navigator
 ### Data: Lending data
 ![lending_data](./images/lending_data.png)
 
-### Classification Report
-![classification_report](./images/classification_report.png)
+### Applicant Data
+![applicant_data](./images/applicant_data.png)
 
-### Balanced Accuracy Score and Confusion Matrix:
+### Standard Scaler:
+![standard-scaler](./images/standardscaler.png)
 
-![balanced_confused](./images/balanced_and_confusion.png)
+### Model Evaluation:
+![model-evaluation](./images/model_evaluation.png)
 
-### Classification Reports: Original and Oversampled
+### Alternative Models 1 and 2 results:
 
-![oversampled](./images/classification_report1.png)
+1[model1and2](./images/model1and2.png)
 
 
 
