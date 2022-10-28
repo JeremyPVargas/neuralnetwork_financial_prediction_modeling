@@ -3,10 +3,6 @@ This tool uses deep neural networks to create binary classifications models and 
 
 
 
-# Risk Classificaton - Supervised Machile Learning
-This application pedicts risk through Supervised Learning's imbalanced-learn library. 
-It uses a dataset of historical lending activiy from a peer-to-peer lending services company to build a model that can identify the credit worthiness of borrowers. 
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
